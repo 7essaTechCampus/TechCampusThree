@@ -1,0 +1,349 @@
+* { margin: 0;
+    padding: 0; }
+
+
+
+body,html { }
+
+.title-froze {
+     margin-top:50px;
+     margin-left: 10px;
+     font-size: 3em;
+     font-family:"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+     color:#258e8e;
+     opacity:.6;
+     list-style: none;
+     position:fixed;
+     z-index: 99;
+    height: 100%;
+    text-shadow: 2px black;
+   
+}
+
+  a {
+            border:none;
+            outline:none;
+            text-decoration:none;
+             color: #258e8e;
+            
+        }
+
+  a:hover {
+            border:none;
+            outline:none;
+            text-decoration:none;
+             color: black;
+            
+        }
+        
+        .sect {
+            
+            height:100%; 
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            
+            
+            
+        } 
+            
+      .subSection {
+            height: 50%;
+            background-color:bisque;
+           
+}
+ 
+     .sectOne {
+         background-image: url(../Mysite/img/background-images-for-websites-016.jpg);
+         background-size:cover;
+         color: #258e8e;
+}
+    .sectTwo {
+    
+        background-image: url(img/e78c4055c2ec0707a03fb6ac0fc35000.jpg);
+        background-position: right;
+        background-size:contain;
+        height: 58%;
+    
+}
+
+.social {
+    
+    height: 10%;
+    border-bottom-style:inset;
+    border-width:thin;
+    border-color:darkgray;
+    background-color:whitesmoke;
+    text-align: center;
+    font-family:serif;
+    font-size: 20px;
+    color:darkgray;
+    font-style:italic;
+    
+    
+    
+}
+
+.info {
+    
+    height: 60%;
+    background-color:gainsboro;
+    border-bottom-style:inset;
+    border-color:whitesmoke;
+    border-width: thin;
+   
+    
+}
+
+.info h3 {
+    
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:#258e8e;
+}
+
+.info p {
+    
+    text-align: center;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-style:italic;
+    color:black;
+    font-size: 1em;
+    
+}
+.info b {
+    font-size:2em;
+}
+
+h3 { 
+
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:gray;
+}
+
+ .sectTwo .fa {
+     position: relative;
+     text-align: center;
+     margin-right:10%;
+     margin-left: 15%;
+     color: #258e8e;
+     
+}
+
+ nav .picture {
+     position: relative;
+     margin-left: 13%;
+    margin-top:2%;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size:1.2em; 
+    color:#258e8e;
+    font-style: italic;
+}
+
+ nav .videos {
+     position: relative;
+     margin-left:42%;
+     margin-top: -1.5%;
+     font-family:"Trebuchet MS", Helvetica, sans-serif;
+     font-size:1.2em;
+     color:#258e8e;
+     font-style: italic;
+}
+ nav .bullshit {
+     position: relative;
+     margin-left:75%;
+     margin-top: -1.5%;
+     font-family:"Trebuchet MS", Helvetica, sans-serif;
+     font-size:1.2em;
+     color:#258e8e;
+     font-style: italic;
+}
+.branch {
+    height: 100%;
+    border-bottom-style:inset;
+    border-width: thin;
+    border-color:darkgray;
+    background-color:gainsboro;
+   
+    
+} 
+
+.branch h3 { 
+
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:#258e8e;
+    margin-right: 50%;
+    margin-top:8%;
+    margin-bottom: -10%;
+}
+
+.branch p {
+    
+    margin-right: 50%;
+    font-size: 1.3em;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style:italic;
+    margin-top: 15%;
+    margin-left: 2%;
+    color:white;
+    text-shadow:;
+    text-align: center;
+ 
+}
+
+.branch b {
+    color:black;
+}
+
+div .self-talk {
+    opacity: .4;
+    color:#258e8e;
+}
+
+.collection{
+    background-color: aqua;
+}
+div .education{
+    
+    margin-left:50%;
+    text-align:center;
+     font-size: .9em;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-style:italic;
+    margin-top: -15%;
+    
+}
+
+div .experience{
+    
+    margin-left:50%;
+    text-align:center;
+     font-size: .9em;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-style:italic;
+   
+}
+
+div .job{
+    
+    margin-left:50%;
+    text-align:center;
+     font-size: .9em;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-style:italic;
+    
+}
+
+.fa-superpowers {
+
+ color:#178479;
+ margin-left: 75%;
+ margin-top: -18%;
+
+}
+
+.fa-copyright {
+    
+     color:#178479;
+     margin-left: 75%;
+  margin-top: 5%; 
+    
+    
+}
+.fa-money {
+    
+    color:#178479;
+     margin-left: 75%;
+     margin-top: 5%;
+  
+    
+}
+
+
+        .fly-word{
+            list-style: none;
+            position:absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+        
+        .fly-word li {
+            display: inline-block;
+            color: white;
+            margin-right: 50px;
+            margin-bottom: 90px;
+            font-family:monospace;
+            font-size: 70px;
+            opacity: 1;
+            transition: all 2s ease;
+        }
+        
+        .fly-word li:last-child {
+            
+            margin-right: 0;
+            
+        }
+        
+        .fly-word-hidden li {
+          opacity: .4;
+        }
+        
+        .fly-word.hidden li:nth-child(1){ transform: translateX(-405px)translateY(0px);}
+        .fly-word.hidden li:nth-child(2){ transform: translateX(2px) translateY(500px);}
+        .fly-word.hidden li:nth-child(3){ transform: translateX(-15px) translateY(-400px); }
+        .fly-word.hidden li:nth-child(4){ transform: translateX(2px) translateY(500px); }
+        .fly-word.hidden li:nth-child(5){ transform: translateX(-15px) translateY(-400px);}
+        .fly-word.hidden li:nth-child(6){ transform: translateX(405px) translateY(0px); }
+        .fly-word.hidden li:nth-child(7){ transform: translateX(300px) translateY(-0px);}     
+
+
+        .fa-linkedin {
+        position:relative;
+        color:black;
+   
+        } 
+        .fa-linkedin:hover {
+            color:blue;
+        }
+        
+        .social .fa {
+        position:relative;
+        color: #258e8e;
+        margin-right:15px;
+        margin-left:5px;
+       
+       
+        } 
+        .fa:hover {
+            color:black;
+        }
+
+@media screen and (max-width:640px) {}
+    
+
+
+/* pictures i take - page.css */
+
+.picVerg {
+    
+    background-image: url(img/e78c4055c2ec0707a03fb6ac0fc35000.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:contain;
+    height: 70%;
+    background-color:white;
+}
+    
+    
+  
+
+.picVergSecTwo {
+    
+    background-color: gainsboro;
+    border-bottom: snow;
+    height:15%;            
+
+}
+    
